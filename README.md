@@ -1,7 +1,7 @@
 Task #1. 
 
   If we from correct arithmetic expression, which contains numbers, signs of operations and the opening and closing parentheses throw numbers and symbols operations, and then write down the remaining brackets in the expression without spaces between them, the result is called a right bracket expression [bracket expression "(()(()))" - right expression, and  "()(" and "())(" - wrong expression].
-Please, find number of right bracket expression, which containing N opening and N closing parentheses. N entered from the keyboard. N non-negative integer.
+Please, find number of right parentheses expression, which containing N opening and N closing parentheses. N entered from the keyboard. N non-negative integer.
 
 Example:
 N =  1 (one parenthesis the opening and closing) - answer 1
