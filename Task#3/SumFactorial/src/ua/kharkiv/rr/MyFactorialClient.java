@@ -12,7 +12,7 @@ import java.util.Scanner;
  * Class MyFactorialClient - client for computing sum 
  * of the digits, which represent factorial of incoming value.
  * 
- * @version 1.0 22 June 2015
+ * @version 1.01 22 June 2015
  * @author Raietskyi Ruslan
  */
 public class MyFactorialClient {
