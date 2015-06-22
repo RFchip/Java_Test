@@ -1,7 +1,7 @@
 /*
  * %W% %E% Raietskyi Ruslan
  * 
- * This software provided computing number of right bracket expression, 
+ * This software provided computing number of right parentheses expression, 
  * which containing N opening and N closing parentheses.
  * Using algorithm of computing Catalan numbers.
  * https://en.wikipedia.org/?title=Catalan_number 
@@ -32,7 +32,9 @@ public class BracketsLogic extends MyFactorial {
 			
 			/* Checking argument. */
 			System.err.println("argument will be not negative!");
-			System.exit(0);											/* Exit from program if argument value is wrong. */
+			
+			/* Exit from program if argument value is wrong. */
+			System.exit(0);											
 		} else if (n == 0)
 			return result = BigInteger.ZERO;
 

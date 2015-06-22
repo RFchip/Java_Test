@@ -31,7 +31,9 @@ public class MyFactorial {
 			
 			/* Checking argument. */
 			System.err.println("argument will be not negative!");
-			System.exit(0);											/* Exit from program if argument value is wrong. */
+			
+			/* Exit from program if argument value is wrong. */
+			System.exit(0);											
 		} else if (f == 0) {
 			return BigInteger.ONE;
 		} else {
