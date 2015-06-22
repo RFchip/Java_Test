@@ -33,7 +33,7 @@ public class MyFactorialClient {
 			} else {
 				
 				/* Checking argument - if not number. */
-				System.err.println("Wrong type of argument! Try again!");
+				System.err.println("Wrong type of argument! Try again! ");
 				sc.nextLine();
 			}
 		}
