@@ -1,5 +1,6 @@
 /*
  * %W% %E% Raietskyi Ruslan
+ * 
  * This software provided computing of factorial
  * and sum of the digits, which represent factorial.
  */
@@ -28,9 +29,11 @@ public class MyFactorial {
 
 		if (f < 0) {
 			
-			/* Check argument. */
+			/* Checking argument. */
 			System.err.println("argument will be not negative!");
-			System.exit(0);											/* Exit from program if argument value is wrong. */
+			
+			/* Exit from program if argument value is wrong. */
+			System.exit(0);											
 		} else if (f == 0) {
 			return BigInteger.ONE;
 		} else {

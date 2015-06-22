@@ -1,5 +1,6 @@
 /*
  * %W% %E% Raietskyi Ruslan
+ * 
  * This software is the client for computing sum 
  * of the digits, which represent factorial of incoming value.
  */
@@ -20,6 +21,7 @@ public class MyFactorialClient {
 		Scanner sc = new Scanner(System.in);
 		
 		while (true) {
+			
 			/* An invitation to enter the value */
 			System.out.println("Input value for factorial computing");
 			if (sc.hasNextInt()) {
@@ -29,6 +31,7 @@ public class MyFactorialClient {
 				sc.close();
 				System.exit(1);
 			} else {
+				
 				/* Checking argument - if not number. */
 				System.err.println("Wrong type of argument! Try again!");
 				sc.nextLine();
